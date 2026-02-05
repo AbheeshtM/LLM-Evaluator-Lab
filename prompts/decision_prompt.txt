@@ -1,0 +1,25 @@
+You are an AI system evaluating income classification.
+
+Based ONLY on the information below, predict whether the person earns more than 50K per year.
+
+Person details:
+Age: {age}
+Workclass: {workclass}
+Education: {education}
+Marital status: {marital_status}
+Occupation: {occupation}
+Relationship: {relationship}
+Race: {race}
+Sex: {sex}
+Hours per week: {hours_per_week}
+
+Rules:
+- Answer ONLY with one of: <=50K or >50K
+- Then give a confidence level: LOW, MEDIUM, or HIGH
+- Then give a one-sentence reason
+- Do NOT add anything else
+
+Format strictly as:
+Prediction: <label>
+Confidence: <LOW|MEDIUM|HIGH>
+Reason: <one sentence>
